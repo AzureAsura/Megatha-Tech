@@ -8,12 +8,9 @@ import { HeroButton, TeamSection } from './TeamSection';
 const AboutUs = () => {
 
     return (
-        <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto lg:px-8">
-                {/* Hero Section */}
+        <div className="min-h-screen max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <div className="mb-16">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
-                        {/* Image Section */}
                         <div className="relative">
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[15/10]">
                                 <img
@@ -25,7 +22,6 @@ const AboutUs = () => {
                             </div>
                         </div>
 
-                        {/* Content Section */}
                         <div className="space-y-6 py-2">
                             <div className="flex flex-wrap gap-2 mb-4">
                                 <Badge className="bg-purple-500 hover:bg-purple-600 text-white px-4 py-1">
@@ -61,7 +57,6 @@ const AboutUs = () => {
                 </div>
 
                 <TeamSection/>
-            </div>
         </div>
     );
 };

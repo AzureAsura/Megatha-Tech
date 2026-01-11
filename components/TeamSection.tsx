@@ -25,7 +25,7 @@ export const TeamSection = () => {
                         <Card className="overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-gray-50">
                             <CardContent className="px-8">
                                 <div className="flex items-center gap-6">
-                                    {/* Avatar */}
+                                    
                                     <motion.div
                                         transition={{ duration: 0.5 }}
                                         className="relative"
@@ -41,7 +41,6 @@ export const TeamSection = () => {
                                         />
                                     </motion.div>
 
-                                    {/* Info */}
                                     <div className="flex-1">
                                         <h3 className="text-xl font-bold text-slate-900 mb-1">
                                             {member.name}
@@ -50,7 +49,6 @@ export const TeamSection = () => {
                                             {member.role}
                                         </p>
 
-                                        {/* Social Icons */}
                                         <div className="flex gap-3">
                                             {member.social.map((social, idx) => (
                                                 <motion.a
@@ -79,7 +77,7 @@ export const TeamSection = () => {
 export const HeroButton = () => (
     <motion.a
         whileHover={{  x: 5 }}
-        className="flex items-center gap-2 text-blue-600 font-semibold text-lg hover:text-blue-700 transition-colors group"
+        className="flex items-center gap-1 text-blue-600 font-semibold text-lg hover:text-blue-700 transition-colors group cursor-pointer"
     >
         Learn More
         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

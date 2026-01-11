@@ -8,7 +8,7 @@ import BannerCarousel from "./BannerCarousel"
 const Hero = () => {
 
     return (
-        <section className="relative w-full overflow-hidden pt-14 md:pt-20">
+        <section className="relative h-screen w-full overflow-hidden pt-14 md:pt-20">
 
             <div className="relative h-[650px] w-full">
                 <img

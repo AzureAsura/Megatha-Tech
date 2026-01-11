@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Toast = () => {
-  const whatsappNumber = "6287784078923"; // Format internasional (ganti 0 jadi 62)
-  const message = "Halo, saya ingin bertanya..."; // Pesan otomatis (opsional)
+  const whatsappNumber = "6289688072039"; 
+  const message = "Halo, saya ingin bertanya..."; 
   
   const waLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
@@ -15,7 +15,6 @@ const Toast = () => {
         className="flex items-center gap-3 bg-white p-1 rounded-full shadow-2xl border border-gray-100 hover:bg-gray-50 transition-all duration-300 group"
       >
 
-        {/* Lingkaran Ikon WhatsApp */}
         <div className="bg-[#25D366] p-3 rounded-full shadow-lg group-hover:scale-110 transition-transform">
           <svg
             xmlns="http://www.w3.org/2000/svg"
